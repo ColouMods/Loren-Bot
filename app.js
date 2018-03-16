@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '@Loren Goodwin') {
-        channel.send('test')
-            .then(message => console.log(`Sent message: ${message.content}`))
-            .catch(console.error);
+        message.channel.sendMessage('test');
     	//message.reply('');
   	}
 });
