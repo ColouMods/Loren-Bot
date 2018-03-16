@@ -7,9 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '@Loren Goodwin') {
-        bot.sendMessage({
-                    to: channelID,
-                    message: 'Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.!'
+        channel.send('test')
+            .then(message => console.log(`Sent message: ${message.content}`))
+            .catch(console.error);
     	//message.reply('');
   	}
 });
