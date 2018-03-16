@@ -7,7 +7,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '@Loren Goodwin') {
-    	message.reply('Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.');
+        bot.sendMessage({
+                    to: channelID,
+                    message: 'Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.!'
+    	//message.reply('');
   	}
 });
 
