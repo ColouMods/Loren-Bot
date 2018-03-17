@@ -38,17 +38,16 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
-    if (message.content.match(/well seymour i made it/i)) 
-    {
-        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
-    }
-    if (message.content.match(/despite your directions/i)) 
+    if (message.content.match(/well seymour i made it./i) || message.content.match(/despite your directions/i))
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
     if (message.content.match(/Loren is the gayest/i)) 
     {
         message.channel.sendMessage('TIL.');
+    }
+    if (message.content === '@Loren Goodwin View GitHub')   {
+        message.channel.sendMessage("My GitHub link is https://github.com/ColouMods/Loren-Bot/ Wait, I don't have a Github link, I'm Loren Goodwin.");
     }
     
 });
