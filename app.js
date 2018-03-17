@@ -54,6 +54,11 @@ client.on('message', message => {
         message.channel.sendMessage("Please don't discuss piracy here.");
 		return;
     }
+    if (message.content.match(/road/i)) 
+    {
+        message.channel.sendMessage("Making new roads with the map builder is pretty easy.");
+		return;
+    }
     if (message.content.match(/nocd/i)) 
     {
         message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
