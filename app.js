@@ -37,11 +37,17 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 		return;
     }
+    
 	
 	//This is basic content searching
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
+		return;
+    }
+	if (message.content.match(/launcher/i)) 
+    {
+        message.channel.sendMessage("Our Mod Launcher includes a hack called *Modern Computer Support* that does some stuff to the game to make it work much closer to how it's supposed to on modern versions of Windows.");
 		return;
     }
     if (message.content.match(/Loren is the gayest/i)) 
