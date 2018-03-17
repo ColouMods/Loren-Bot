@@ -24,6 +24,15 @@ client.on('message', message => {
         message.content.match(/i were to purchase/i) ||
         message.content.match(/and disguise it as my own/i) ||
         message.content.match(/crazy explanations/i) ||
+        message.content.match(/need his medications/i) ||
+        message.content.match(/lame exaggerations/i) ||
+        message.content.match(/trouble in town tonight/i) ||
+        message.content.match(/stretching my calves/i) ||
+        message.content.match(/isometric exercise/i) ||
+        message.content.match(/that isn't smoke it's steam/i) ||
+        message.content.match(/regional dialect/i) ||
+        message.content.match(/obviously grilled/i) ||
+        message.content.match(/patented skinner burgers/i) ||
         message.content.match(/despite your directions/i)
         )
     {
