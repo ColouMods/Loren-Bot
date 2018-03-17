@@ -10,7 +10,7 @@ client.on('message', message => {
 		if (message.content.match(/cat/i)) 
     {
 		catNum = parseInt(Math.random(4)+1);
-        message.channel.sendMessage("cats/cat${catNum}.jpg");
+        message.channel.sendMessage("cats/cat"+catNum+".jpg");
 		return;
     }
     if (message.content.match(/steamed hams/i) ||
