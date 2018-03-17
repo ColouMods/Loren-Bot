@@ -70,8 +70,12 @@ client.on('message', message => {
 		if (message.content.match(/@loren goodwin view github/i))
 	{
         message.channel.sendMessage("My GitHub link is https://github.com/ColouMods/Loren-Bot/ Wait, I don't have a Github link, I'm Loren Goodwin.");
-    }
-	else 
+        }
+		else if (message.content.match(/@loren goodwin quote the lion king/i))
+	{
+        message.channel.sendMessage("I've never seen the Lion King.");
+        }
+		else 
 	{
 		message.channel.sendMessage("Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.");
 	}
