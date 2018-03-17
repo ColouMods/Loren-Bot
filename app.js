@@ -35,26 +35,31 @@ client.on('message', message => {
         )
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+		return;
     }
 	
 	//This is basic content searching
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
-    return;
+		return;
     }
     if (message.content.match(/Loren is the gayest/i)) 
     {
         message.channel.sendMessage('TIL.');
+		return;
     }
     if (message.content.match(/piracy/i)) 
     {
         message.channel.sendMessage("Please don't discuss piracy here.");
+		return;
     }
     if (message.content.match(/nocd/i)) 
     {
         message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
+		return;
 	}
+	
 	//This is his mention code
 	if (message.content.match(/@loren goodwin/i))
 		if (message.content.match(/@loren goodwin view github/i))
@@ -65,7 +70,7 @@ client.on('message', message => {
 	{
 		message.channel.sendMessage("Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.");
 	}
-    
+    return;
 });
 
 // THIS  MUST  BE  THIS  WAY
