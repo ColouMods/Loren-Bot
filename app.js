@@ -17,7 +17,13 @@ client.on('message', message => {
         message.content.match(/steamed clams/i) ||
         message.content.match(/the house is on fire/i) ||
         message.content.match(/unforgettable luncheon/i) ||
-        message.content.match(/well seymour i made it./i) ||
+        message.content.match(/well seymour i made it/i) ||
+        message.content.match(/ah superintendent chalmers/i) ||
+        message.content.match(/i hope you're prepared for an/i) ||
+        message.content.match(/my roast is ruined/i) ||
+        message.content.match(/i were to purchase/i) ||
+        message.content.match(/and disguise it as my own/i) ||
+        message.content.match(/crazy explanations/i) ||
         message.content.match(/despite your directions/i)
         )
     {
