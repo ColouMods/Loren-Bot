@@ -46,9 +46,9 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
-    if (message.content.match(/seymore/i)) 
+    if (message.content.match(/Loren is the gayest/i)) 
     {
-        message.channel.sendMessage('*Seymore*...What are you, fucking gay?');
+        message.channel.sendMessage('TIL.');
     }
     
 });
