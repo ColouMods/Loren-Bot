@@ -34,11 +34,11 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
-    if (message.content.match(/unforgettable luncheon/i)) 
+    if (message.content.match(/ah superintendent chalmers/i)) || message.content.match(/unforgettable luncheon/i))
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
-    if (message.content.match(/well seymour i made it./i) || message.content.match(/despite your directions/i))
+    if (message.content.match(/well seymour i made it/i) || message.content.match(/despite your directions/i))
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
