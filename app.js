@@ -38,7 +38,7 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
-    if (message.content.match(/well seymore i made it/i)) 
+    if (message.content.match(/well seymour i made it/i)) 
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
