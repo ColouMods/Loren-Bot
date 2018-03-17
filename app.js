@@ -7,12 +7,6 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if(message.author.bot) return;
-	if (message.content.match(/cat/i)) 
-    {
-		catNum = parseInt(random(4)+1);
-        message.channel.sendMessage("cats/cat" + catNum + ".jpg");
-		return;
-    }
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
         message.content.match(/oh egads/i) ||
