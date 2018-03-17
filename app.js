@@ -48,6 +48,14 @@ client.on('message', message => {
     {
         message.channel.sendMessage('TIL.');
     }
+    if (message.content.match(/piracy/i)) 
+    {
+        message.channel.sendMessage("Please don't discuss piracy here.");
+    }
+    if (message.content.match(/nocd/i)) 
+    {
+        message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
+    }
     if (message.content === '@Loren Goodwin View GitHub')   {
         message.channel.sendMessage("My GitHub link is https://github.com/ColouMods/Loren-Bot/ Wait, I don't have a Github link, I'm Loren Goodwin.");
     }
