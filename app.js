@@ -71,6 +71,11 @@ client.on('message', message => {
         message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
 		return;
 	}
+    if (message.content.match(/loren is a girls name/i) || message.content.match(/loren is a her name/i)) 
+    {
+        message.channel.sendMessage("I'm a guy lol");
+		return;
+    }
 //STUPID EASTER EGGS, SPECIFIC CASES
     if (message.content.match(/When Donut Mod 4 is revealed as a suppository, there will be ass activity./i)) 
     {
