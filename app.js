@@ -61,7 +61,9 @@ client.on('message', message => {
     }
     if (message.content.match(/sketchup/i) || message.content.match(/3d model/i)) 
     {
-        message.channel.sendMessage("I prefer my locator names to reflect what they're actually for. Take the anger out on SketchUp, that's what I say. I have a love/hate relationship with that software. Or is it more like tolerate/hate. I'm not sure.");
+        message.channel.sendMessage("SketchUp. I have a love/hate relationship with that software.");
+	message.channel.sendMessage("Or is it more like tolerate/hate?");    
+	message.channel.sendMessage("I'm not sure.");    
 		return;
     }
     if (message.content.match(/nocd/i)) 
