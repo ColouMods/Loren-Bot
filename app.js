@@ -10,7 +10,7 @@ client.on('message', message => {
 		if (message.content.match(/cat/i)) 
     {
 		catNum = (Math.floor(Math.random() * 4)+1);//this is the number of possibilities starting from zero, so 5 is 01234
-        message.channel.sendMessage("cats/cat"+catNum+".jpg");
+        message.channel.sendMessage("https://github.com/ColouMods/Loren-Bot/blob/master/cats/cat"+catNum+".jpg");
 		return;
     }
     if (message.content.match(/steamed hams/i) ||
