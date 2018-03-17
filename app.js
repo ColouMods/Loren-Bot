@@ -38,6 +38,11 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
+    if (message.content.match(/map builder/i)) 
+    {
+        message.channel.sendMessage('I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
+    return;
+    }
     if (message.content.match(/Loren is the gayest/i)) 
     {
         message.channel.sendMessage('TIL.');
