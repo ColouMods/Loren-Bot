@@ -9,7 +9,7 @@ client.on('message', message => {
     if(message.author.bot) return;
 		if (message.content.match(/cat/i)) 
     {
-		catNum = parseInt(Math.random(4));
+		catNum = (Math.floor(Math.random() * 5));
         message.channel.sendMessage("cats/cat"+catNum+".jpg");
 		return;
     }
