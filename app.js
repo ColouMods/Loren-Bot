@@ -41,7 +41,7 @@ client.on('message', message => {
 	//This is basic content searching
     if (message.content.match(/map builder/i)) 
     {
-        message.channel.sendMessage('I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
+        message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
 		return;
     }
     if (message.content.match(/Loren is the gayest/i)) 
