@@ -59,6 +59,11 @@ client.on('message', message => {
         message.channel.sendMessage("Making new roads with the map builder is pretty easy.");
 		return;
     }
+    if (message.content.match(/sketchup/i) || message.content.match(/3d model/i)) 
+    {
+        message.channel.sendMessage("I prefer my locator names to reflect what they're actually for. Take the anger out on SketchUp, that's what I say. I have a love/hate relationship with that software. Or is it more like tolerate/hate. I'm not sure.");
+		return;
+    }
     if (message.content.match(/nocd/i)) 
     {
         message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
