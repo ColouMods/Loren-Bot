@@ -25,7 +25,15 @@ client.on('message', message => {
     if (message.content.match(/delightfully devilish/i)) 
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
-    }  
+    } 
+    if (message.content.match(/steamed clams/i)) 
+    {
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+    }
+    if (message.content.match(/the house is on fire/i)) 
+    {
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+    }
     
 });
 
