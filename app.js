@@ -6,10 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+    if(message.author.bot) return;
     if (message.content === '@Loren Goodwin')   {
         message.channel.sendMessage('Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.');
     }
-    if (message.includes('steamed hams')) {
+    if (message.content.match(/sock/i)) 
+    {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
 });
