@@ -82,6 +82,12 @@ client.on('message', message => {
 	message.channel.sendMessage("That's an impressive level of shock factor in that message.");
 	        return;
     }
+    if (message.content.match(/loren is my sugar daddy/i)) 
+    {
+	message.channel.sendMessage("http://i.imgur.com/3PFqxIp.gifv");
+	        return;
+    }
+	
 	//This is his mention code
 	if (message.content.match(/@loren goodwin/i))
 		if (message.content.match(/@loren goodwin view github/i))
