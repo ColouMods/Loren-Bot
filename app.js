@@ -14,6 +14,19 @@ client.on('message', message => {
     {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
     }
+    if (message.content.match(/aurora borealis/i)) 
+    {
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+    }
+    if (message.content.match(/oh egads/i)) 
+    {
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+    }
+    if (message.content.match(/delightfully devilish/i)) 
+    {
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+    }  
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
