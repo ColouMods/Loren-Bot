@@ -7,12 +7,6 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if(message.author.bot) return;
-		if (message.content.match(/cat/i)) 
-    {
-		catNum = (Math.floor(Math.random() * 4)+1);//this is the number of possibilities starting from zero, so 5 is 01234
-        message.channel.sendMessage("https://raw.githubusercontent.com/ColouMods/Loren-Bot/master/cats/cat"+catNum+".png");
-		return;
-    }
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
         message.content.match(/oh egads/i) ||
