@@ -33,6 +33,7 @@ client.on('message', message => {
         message.content.match(/regional dialect/i) ||
         message.content.match(/obviously grilled/i) ||
         message.content.match(/patented skinner burgers/i) ||
+        message.content.match(/steam a good ham/i) ||        
         message.content.match(/despite your directions/i)
         )
     {
