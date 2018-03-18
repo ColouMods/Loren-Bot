@@ -47,10 +47,12 @@ client.on('message', message => {
 	//This is basic content searching
     if (message.content.match(/status/i)||(message.content.match(/update/i)) 
     {
-	var d = Date.Now();
-	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-	var month = months[d.getMonth()];
-	var year = d.getFullYear();
+	//var d = Date.Now();
+	//var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+	//var month = months[d.getMonth()];
+	var month = 1;
+	//var year = d.getFullYear();
+	var year = 1;
         message.channel.sendMessage("Hey everyone, this is Loren from Donut Team, Welcome to the "+ month + " " + year + " Status Update.");
 	return;
     }
