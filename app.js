@@ -73,6 +73,12 @@ client.on('message', message => {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
 		return;
     }
+    if (message.content.match(/fuck road nodes/i)) 
+    {
+        message.channel.sendMessage('Also I have to stop referring to them as "Road Nodes" since the actual name is just "Roads"');
+	message.channel.sendMessage('Which is confusing but its the official name for that chunk type.');
+		return;
+    }
     if (message.content.match(/fucking game gets crash/i)) 
     {
         message.channel.sendMessage("Calm down.");
