@@ -45,6 +45,14 @@ client.on('message', message => {
     
 	
 	//This is basic content searching
+    if (message.content.match(/status/i)||(message.content.match(/update/i)) 
+    {
+	var d = new Date();
+	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        message.channel.sendMessage("Hey everyone, this is Loren from Donut Team, Welcome to the "+ months[d.getMonth()] +" "+ d.getFullYear() +" Status Update);
+		return;
+    }
+	
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
