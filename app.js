@@ -54,6 +54,20 @@ client.on('message', message => {
         message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update.");
 	return;
     }
+    if (message.content.match(/spaghetti/i) ||
+        message.content.match(/meatballs/i) ||
+        message.content.match(/pasta/i) ||
+        message.content.match(/rice/i) ||
+        message.content.match(/ice cream/i) ||
+        message.content.match(/pizza/i) ||
+        message.content.match(/oh wow i am not a healthy person/i) ||
+	message.content.match(/taqutio/i) || //what the fuck's a taqutio?
+	message.content.match(/taquito/i) ||
+        message.content.match(/taco/i)) 
+    {
+        message.channel.sendMessage("Fuck now I'm hungry.");
+		return;
+    }
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
