@@ -81,12 +81,17 @@ client.on('message', message => {
         message.channel.sendMessage("Making new roads with the map builder is pretty easy.");
 		return;
     }
-    if (message.content.match(/sketchup/i) || message.content.match(/3d model/i)) 
-    {
-        message.channel.sendMessage("SketchUp. I have a love/hate relationship with that software.");
-	message.channel.sendMessage("Or is it more like tolerate/hate?");    
-	message.channel.sendMessage("I'm not sure.");    
-		return;
+    if (message.content.match(/sketchup/i) || message.content.match(/3d model/i))
+	{
+		sketchNum = (Math.floor(Math.random() * 2)+1);
+		if (sketchNum == 1)
+    	{
+        	message.channel.sendMessage("Lmao");
+    	}
+		else 
+	{
+		message.channel.sendMessage("*indistinct growling noises*");
+	}
     }
     if (message.content.match(/nocd/i) || message.content.match(/no cd/i)|| message.content.match(/crack/i)) 
     {
