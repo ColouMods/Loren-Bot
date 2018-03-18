@@ -49,10 +49,11 @@ client.on('message', message => {
     {
 	var d = new Date();
 	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-        message.channel.sendMessage("Hey everyone, this is Loren from Donut Team, Welcome to the "+ (months[d.getMonth()]) +" "+ (d.getFullYear()) +" Status Update);
+	var month = (months[d.getMonth()])
+	var year = (d.getFullYear())
+        message.channel.sendMessage("Hey everyone, this is Loren from Donut Team, Welcome to the "+ month + " " + year + " Status Update);
 	return;
     }
-				    }
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
