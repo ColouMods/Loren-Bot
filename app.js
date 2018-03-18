@@ -49,6 +49,10 @@ client.on('message', message => {
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
 		return;
+    if (message.content.match(/map/i)) 
+    {
+        message.channel.sendMessage("Yeah that map is insanely cool and it'd be totally bonkers to have something like that in SHAR.");
+		return;
     }
 	if (message.content.match(/launcher/i)) 
     {
