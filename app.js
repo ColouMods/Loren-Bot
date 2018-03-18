@@ -88,7 +88,7 @@ client.on('message', message => {
 	message.channel.sendMessage("I'm not sure.");    
 		return;
     }
-    if (message.content.match(/nocd/i)) 
+    if (message.content.match(/nocd/i) || message.content.match(/no cd/i)|| message.content.match(/crack/i)) 
     {
         message.channel.sendMessage("Using a No CD crack isn't really piracy (morally speaking at least) if you actually own the game but I'd rather we not discuss the subject in this server.");
 		return;
@@ -99,7 +99,7 @@ client.on('message', message => {
 		return;
     }
 //STUPID EASTER EGGS, SPECIFIC CASES
-    if (message.content.match(/When Donut Mod 4 is revealed as a suppository, there will be ass activity./i)) 
+    if (message.content.match(/When Donut Mod 4 is revealed as a suppository, there will be ass activity./i) || message.content.match(/ass activity/i)) 
     {
 	message.channel.sendMessage("That's an impressive level of shock factor in that message.");
 	        return;
