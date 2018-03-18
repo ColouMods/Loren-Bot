@@ -86,7 +86,9 @@ client.on('message', message => {
 		sketchNum = (Math.floor(Math.random() * 2)+1);
 		if (sketchNum == 1)
     	{
-        	message.channel.sendMessage("Lmao");
+        	message.channel.sendMessage("SketchUp. I have a love/hate relationship with that software.");
+		message.channel.sendMessage("Or is it more like tolerate/hate?");    
+		message.channel.sendMessage("I'm not sure.");
     	}
 		else 
 	{
