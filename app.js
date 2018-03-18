@@ -31,6 +31,10 @@ client.on('message', message => {
         message.content.match(/regional dialect/i) ||
         message.content.match(/obviously grilled/i) ||
         message.content.match(/patented skinner burgers/i) ||
+	message.content.match(/at this time of year/i) ||
+	message.content.match(/at this time of day/i) ||
+	message.content.match(/in this part of the country/i) ||
+	message.content.match(/localized entirely within your kitchen/i) ||
         message.content.match(/steam a good ham/i) ||        
         message.content.match(/despite your directions/i)
         )
