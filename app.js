@@ -47,7 +47,7 @@ client.on('message', message => {
 	//This is basic content searching
     if (message.content.match(/status/i)||(message.content.match(/update/i)) 
     {
-	var d = new Date();
+	var d = Date.Now();
 	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 	var month = months[d.getMonth()]
 	var year = d.getFullYear()
