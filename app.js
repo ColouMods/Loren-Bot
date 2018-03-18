@@ -49,8 +49,8 @@ client.on('message', message => {
     {
 	var d = new Date();
 	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-	var month = (months[d.getMonth()])
-	var year = (d.getFullYear())
+	var month = months[d.getMonth()]
+	var year = d.getFullYear()
         message.channel.sendMessage("Hey everyone, this is Loren from Donut Team, Welcome to the "+ month + " " + year + " Status Update.");
 	return;
     }
