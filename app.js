@@ -49,6 +49,7 @@ client.on('message', message => {
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
 		return;
+    }
     if (message.content.match(/splatoon/i)) 
     {
         message.channel.sendMessage("I want to play Splatoon.");
