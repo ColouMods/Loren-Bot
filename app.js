@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.setStatus('online', 'SketchUp');
+    client.setPlayingGame("SketchUp");
     console.log('I am ready!');
 });
 
