@@ -105,10 +105,13 @@ client.on('message', message => {
 	{
         message.channel.sendMessage("I've never seen the Lion King.");
         }
-		else 
+		else if (message.content.match(/@loren goodwin wheels/i))
 	{
 		message.channel.sendMessage("Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.");
 	}
+		else 
+	{
+		message.channel.sendMessage("Hm?");
     return;
 });
 
