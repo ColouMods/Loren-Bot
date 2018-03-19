@@ -1,16 +1,16 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-var willChannel;
+//var willChannel;
 client.on('ready', () => {
     console.log('I am ready!');
-    willChannel = client.channels.find('id', '422215368782643202');
+    //willChannel = client.channels.find('id', '422215368782643202');
 });
 
 client.on('message', message => {
     if (message.author.bot) return;
     
-    if (message.content.match(/ /i))
+    /*if (message.content.match(/ /i))
 	var bored = new Date();
 	var minute = bored.getMinutes();
 	var second = bored.getSeconds();
@@ -20,7 +20,7 @@ client.on('message', message => {
     message.channel.sendMessage("bored");
     var second = bored.getSeconds();
     var second2 = second;
-    });
+    });*/
 	
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
