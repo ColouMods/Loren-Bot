@@ -6,20 +6,7 @@ client.on('ready', () => {
     
 });
 
-willBored(function() {
-	var bored = new Date();
-	var second = update.getSeconds();
-	if(second==0)
-	{
-	message.channel.sendMessage("bored");
-        return;
-	}
 }
-	
-	
-
-
-
 client.on('message', message => {
     if (message.author.bot) return;
     if (message.content.match(/steamed hams/i) ||
