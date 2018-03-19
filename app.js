@@ -1,10 +1,22 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+var willChannel;
 client.on('ready', () => {
     console.log('I am ready!');
-    
+    willChannel = client.channels.find('id', '422215368782643202');
 });
+
+willBored(function() {
+	var bored = new Date();
+	var second = bored.getSeconds();
+	if(second==0)
+	{
+	willChannel.sendMessage("bored");
+    return;
+	}
+}
+
 
 client.on('message', message => {
     if (message.author.bot) return;
