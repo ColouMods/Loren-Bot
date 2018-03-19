@@ -13,9 +13,9 @@ willBored(function() {
 	if(second==0)
 	{
 	willChannel.sendMessage("bored");
-    return;
+    	return;
 	}
-}
+});
 
 
 client.on('message', message => {
