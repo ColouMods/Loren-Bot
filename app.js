@@ -7,6 +7,12 @@ client.on('ready', () => {
     willChannel = client.channels.find('id', '422215368782643202');
 });
 
+willBored(function() {
+	var bored = new Date();
+	var second = bored.getSeconds();
+	willChannel.sendMessage("bored");
+});
+
 client.on('message', message => {
     if (message.author.bot) return;
     if (message.content.match(/steamed hams/i) ||
