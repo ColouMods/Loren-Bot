@@ -7,14 +7,21 @@ client.on('ready', () => {
     willChannel = client.channels.find('id', '422215368782643202');
 });
 
-willBored(function() {
-	var bored = new Date();
-	var second = bored.getSeconds();
-	willChannel.sendMessage("bored");
-});
-
 client.on('message', message => {
     if (message.author.bot) return;
+    
+    if (message.content.match(/ /i))
+	var bored = new Date();
+	var minute = bored.getMinutes();
+	var second = bored.getSeconds();
+	var second2;
+	if (second2 > second && minute != bored.getMinutes)
+    {
+    message.channel.sendMessage("bored");
+    var second = bored.getSeconds();
+    var second2 = second;
+    });
+	
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
         message.content.match(/oh egads/i) ||
