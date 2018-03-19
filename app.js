@@ -160,6 +160,9 @@ client.on('message', message => {
 		else if (message.content.match(/quote the lion king/i))
 	{
         message.channel.sendMessage("I've never seen the Lion King.");
+		else if (message.content.match(/How do I make Colou into a transparent wheel?/i))
+	{
+        message.channel.sendMessage("You don't.");
         }
 		else if (message.content.match(/wheels/i) || message.content.match(/transparent/i))
 	{
