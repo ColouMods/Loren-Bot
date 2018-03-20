@@ -191,10 +191,9 @@ client.on('message', message => {
         message.channel.sendMessage("Sweet jesus.");
 	message.channel.sendMessage("Yeah that sounds scary and I don't really know what the hell is going on there.");
     	}
-		else if (message.content.match(/what is your id?/i))
+		else if (message.content.match(/what is your name?/i))
 	{
-	var id = client.id
-	message.channel.sendMessage(id);
+	message.channel.sendMessage('My name is Loren Bot#6687.");
 	}
 		else 
 	{
