@@ -44,6 +44,7 @@ client.on('message', message => {
         message.content.match(/isometric exercise/i) ||
         message.content.match(/that isn't smoke it's steam/i) ||
         message.content.match(/upstate new york/i) ||
+	message.content.match(/albany expression/i) ||
 	message.content.match(/regional dialect/i) ||
         message.content.match(/obviously grilled/i) ||
         message.content.match(/patented skinner burgers/i) ||
