@@ -193,7 +193,8 @@ client.on('message', message => {
     	}
 		else if (message.content.match(/what is your id?/i))
 	{
-	message.channel.sendMessage(client.id);
+	var id = client.id
+	message.channel.sendMessage(id);
 	}
 		else 
 	{
