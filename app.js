@@ -24,6 +24,7 @@ client.on('message', message => {
 	
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
+	message.content.match(/northern lights/i) ||
         message.content.match(/oh egads/i) ||
         message.content.match(/delightfully devilish/i) ||
         message.content.match(/steamed clams/i) ||
