@@ -193,7 +193,7 @@ client.on('message', message => {
     	}
 		else if (message.content.match(/what is your name?/i))
 	{
-	message.channel.sendMessage('My name is Loren Bot#6687.");
+	message.channel.sendMessage("My name is Loren Bot#6687.");
 	}
 		else 
 	{
