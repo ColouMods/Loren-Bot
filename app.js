@@ -35,7 +35,7 @@ client.on('message', message => {
         message.content.match(/i hope you're prepared for an/i) ||
         message.content.match(/my roast is ruined/i) ||
         message.content.match(/i were to purchase/i) ||
-        message.content.match(/and disguise it as my own/i) ||
+        message.content.match(/disguise it as my own/i) ||
         message.content.match(/crazy explanations/i) ||
         message.content.match(/need his medications/i) ||
         message.content.match(/lame exaggerations/i) ||
