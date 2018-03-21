@@ -60,18 +60,22 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
-    if (message.author.username == "Colou" && message.content.match(/hi loren/i))
+    
+if (message.content.match(/hi loren/i))
+    {
+    if (message.author.username == "Colou")
     {
 	message.channel.sendMessage('Hi Colou.');
     }
-    if (message.author.username == "DoctorBison" && message.content.match(/hi loren/i))
+    else if (message.author.username == "DoctorBison")
     {
 	message.channel.sendMessage('Hi Homer.');
     }
-    if (message.author.username == "XLittleSparrowX" && message.content.match(/hi loren/i))
+    else
     {
 	message.channel.sendMessage("Please don't talk to me.");
     }
+}
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
     {
