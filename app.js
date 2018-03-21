@@ -60,7 +60,7 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
-    if (message.author.333710766706524167)
+    if (message.author.username == "Colou")
     {
 	message.channel.sendMessage('Fuck you, you greasy dinosaur bastard.');
     }
