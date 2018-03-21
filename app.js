@@ -60,9 +60,10 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
-    
-
-	
+    if (message.author.333710766706524167)
+    {
+	message.channel.sendMessage('Fuck you, you greasy dinosaur bastard.');
+    }
     
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
