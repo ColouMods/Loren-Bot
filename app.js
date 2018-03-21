@@ -5,6 +5,15 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
     //willChannel = client.channels.find('id', '422215368782643202');
+    do {
+    boredNum = (Math.floor(Math.random() * 7200000)+1);
+        if     (boredNum == 1)
+        {
+        message.channel.sendMessage("bored");
+        }
+    i=1;
+}
+while (i < 5);
 });
 
 client.on('message', message => {
