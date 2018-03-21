@@ -60,13 +60,13 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
-    if (message.author.username == "Colou")
+    if (message.author.username == "Colou" && message.content.match(/hi loren/i))
     {
-	message.channel.sendMessage('Fuck you, you greasy dinosaur bastard.');
+	message.channel.sendMessage('Hi Colou.');
     }
-    if (message.author.username == "DoctorBison")
+    if (message.author.username == "DoctorBison" && message.content.match(/hi loren/i))
     {
-	message.channel.sendMessage('Fuck off, Homer.');
+	message.channel.sendMessage('Hi Homer.');
     }
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
