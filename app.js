@@ -64,7 +64,10 @@ client.on('message', message => {
     {
 	message.channel.sendMessage('Fuck you, you greasy dinosaur bastard.');
     }
-    
+    if (message.author.username == "Homer")
+    {
+	message.channel.sendMessage('Fuck off, Homer.');
+    }
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
     {
