@@ -88,6 +88,11 @@ client.on('message', message => {
         message.channel.sendMessage("Fuck now I'm hungry.");
 		return;
     }
+    if (message.content.match(/donut mod trailer/i) || message.content.match(/trailer for donut mod/i)) 
+    {
+        message.channel.sendMessage('The year 2077.');
+		return;
+    }
     if (message.content.match(/map builder/i)) 
     {
         message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
