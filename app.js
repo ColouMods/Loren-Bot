@@ -64,7 +64,7 @@ client.on('message', message => {
     {
 	message.channel.sendMessage('Fuck you, you greasy dinosaur bastard.');
     }
-    if (message.author.username == "Homer")
+    if (message.author.username == "DoctorBison")
     {
 	message.channel.sendMessage('Fuck off, Homer.');
     }
