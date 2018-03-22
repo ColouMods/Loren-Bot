@@ -63,7 +63,7 @@ client.on('message', message => {
    //greeting code
 if (message.content.match(/hi loren/i))
     {
-    message.channel.sendMessage("Hi whoever-you-are. Are you ${user}?");
+    message.channel.sendMessage("Hi whoever-you-are. Are you ${message.author.bot}?");
     }
 
 	//This is basic content searching
