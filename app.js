@@ -61,9 +61,13 @@ client.on('message', message => {
 	return;
     }
    //greeting code
-if (message.content.match(/hi loren/i))
+    if (message.content.match(/hi loren/i))
     {
     message.channel.sendMessage("Hi.");
+    }
+    if (message.content.match(/barney ate milhouse again/i))
+    {
+    message.channel.sendMessage("`again`");
     }
 
 	//This is basic content searching
