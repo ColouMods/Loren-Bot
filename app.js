@@ -61,10 +61,10 @@ client.on('message', message => {
 	return;
     }
    //greeting code
-if (message.content.match(/hi loren/i))
+/*if (message.content.match(/hi loren/i))
     {
-    message.channel.sendMessage("Hi "+${message.author.displayName}+".");
-    }
+    message.channel.sendMessage("Hi " + ${message.author.displayName} + ".");
+    }*/
 
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
