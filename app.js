@@ -63,7 +63,8 @@ client.on('message', message => {
    //greeting code
 if (message.content.match(/hi loren/i))
     {
-    message.channel.sendMessage("Hi whoever-you-are. Are you " + message.author.displayName +"?");
+    let greeter = message.author.displayName;
+    message.channel.sendMessage("Hi whoever-you-are. Are you ${greeter}?");
     }
 
 	//This is basic content searching
