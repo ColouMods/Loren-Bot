@@ -63,19 +63,9 @@ client.on('message', message => {
    //greeting code
 if (message.content.match(/hi loren/i))
     {
-    if (message.author.username == "Colou")
-    {
-	message.channel.sendMessage('Hi Colou.');
+    message.channel.sendMessage("Hi ${message.author}.");
     }
-    else if (message.author.username == "DoctorBison")
-    {
-	message.channel.sendMessage('Hi Homer.');
-    }
-    else
-    {
-	message.channel.sendMessage("Please don't talk to me.");
-    }
-}
+
 	//This is basic content searching
     if (message.content.match(/status/i)||message.content.match(/update/i)) 
     {
