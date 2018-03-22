@@ -105,7 +105,7 @@ if (message.content.match(/hi loren/i))
         message.channel.sendMessage('The year 2077.');
 		return;
     }
-    if (message.content.match(/right channel/i)) 
+    if (message.content.match(/right channel/i)||message.content.match(/correct channel/i)) 
     {
         message.channel.sendMessage('banned.');
 		return;
