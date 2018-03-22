@@ -60,7 +60,7 @@ client.on('message', message => {
         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
-    
+   //greeting code
 if (message.content.match(/hi loren/i))
     {
     if (message.author.username == "Colou")
@@ -103,6 +103,11 @@ if (message.content.match(/hi loren/i))
     if (message.content.match(/donut mod trailer/i) || message.content.match(/trailer for donut mod/i)) 
     {
         message.channel.sendMessage('The year 2077.');
+		return;
+    }
+    if (message.content.match(/right channel/i)) 
+    {
+        message.channel.sendMessage('banned.');
 		return;
     }
     if (message.content.match(/map builder/i)) 
