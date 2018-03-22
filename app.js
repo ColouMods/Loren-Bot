@@ -210,6 +210,10 @@ if (message.content.match(/hi loren/i))
 	{
 	message.channel.sendMessage("My name is Loren Bot#6687.");
 	}
+		else if (message.content.match(/greasy dinosaur bastard/i))
+	{
+	message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
+	}
 		else 
 	{
 	message.channel.sendMessage("Hm?");
