@@ -21,7 +21,50 @@ client.on('message', message => {
     var second = bored.getSeconds();
     var second2 = second;
     });*/
-	
+    //This is his mention code
+	if (message.content.match(/@loren goodwin/i))
+		
+		if (message.content.match(/care for some steamed hams/i))
+	{
+        message.channel.sendMessage("No.");
+	message.channel.sendMessage("I'm currently cooking rice.");
+        }
+		if (message.content.match(/view github/i))
+	{
+        message.channel.sendMessage("My GitHub link is https://github.com/ColouMods/Loren-Bot/ Wait, I don't have a Github link, I'm Loren Goodwin.");
+        }
+		else if (message.content.match(/quote the lion king/i))
+	{
+        message.channel.sendMessage("I've never seen the Lion King.");
+	}
+		else if (message.content.match(/How do I make Colou into a transparent wheel?/i))
+	{
+        message.channel.sendMessage("You don't.");
+        }
+		else if (message.content.match(/wheels/i) || message.content.match(/transparent/i))
+	{
+	message.channel.sendMessage("Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.");
+	}
+	    	else if (message.content.match(/crash/i)) 
+    	{
+        message.channel.sendMessage("Sweet jesus.");
+	message.channel.sendMessage("Yeah that sounds scary and I don't really know what the hell is going on there.");
+    	}
+		else if (message.content.match(/what is your name?/i))
+	{
+	message.channel.sendMessage("My name is Loren Bot#6687.");
+	}
+		else if (message.content.match(/greasy dinosaur bastard/i))
+	{
+	message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
+	}
+		else 
+	{
+	message.channel.sendMessage("Hm?");
+    if (message.content.match(/s t e a m e d h a m s/i))
+    { 
+	message.channel.sendMessage("Why");
+    }
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
 	message.content.match(/northern lights/i) ||
@@ -186,41 +229,6 @@ client.on('message', message => {
 	message.channel.sendMessage("http://i.imgur.com/3PFqxIp.gifv");
 	        return;
     }
-	
-	//This is his mention code
-	if (message.content.match(/@loren goodwin/i))
-		if (message.content.match(/view github/i))
-	{
-        message.channel.sendMessage("My GitHub link is https://github.com/ColouMods/Loren-Bot/ Wait, I don't have a Github link, I'm Loren Goodwin.");
-        }
-		else if (message.content.match(/quote the lion king/i))
-	{
-        message.channel.sendMessage("I've never seen the Lion King.");
-	}
-		else if (message.content.match(/How do I make Colou into a transparent wheel?/i))
-	{
-        message.channel.sendMessage("You don't.");
-        }
-		else if (message.content.match(/wheels/i) || message.content.match(/transparent/i))
-	{
-	message.channel.sendMessage("Oh yeah the game is hardcodedly hiding those meshes for rocke_v. When you rename the car it no longer does that.");
-	}
-	    	else if (message.content.match(/crash/i)) 
-    	{
-        message.channel.sendMessage("Sweet jesus.");
-	message.channel.sendMessage("Yeah that sounds scary and I don't really know what the hell is going on there.");
-    	}
-		else if (message.content.match(/what is your name?/i))
-	{
-	message.channel.sendMessage("My name is Loren Bot#6687.");
-	}
-		else if (message.content.match(/greasy dinosaur bastard/i))
-	{
-	message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
-	}
-		else 
-	{
-	message.channel.sendMessage("Hm?");
 	}
     return;
 });
