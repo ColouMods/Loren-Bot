@@ -66,6 +66,11 @@ const Discord = require('discord.js');
      {
      message.channel.sendMessage("Hi.");
     }
+    if (message.content.match(/destroy skinner/i))
+     {
+     message.channel.sendMessage("This scene but Skinner instead of the printer.");
+     message.channel.sendMessage("https://www.youtube.com/watch?v=N9wsjroVlu8");
+    }
     if (message.content.match(/s t e a m e d h a m s/i))
      {
      message.channel.sendMessage("Why");
