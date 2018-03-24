@@ -66,6 +66,10 @@ const Discord = require('discord.js');
      {
      message.channel.sendMessage("Hi.");
     }
+    if (message.content.match(/cappy/i))
+     {
+     message.channel.sendMessage("If you're one of those people that doesn't care to shop at GameStop, there's probably similar hats online somewhere.");
+    }
     if (message.content.match(/destroy skinner/i))
      {
      message.channel.sendMessage("This scene but Skinner instead of the printer.");
