@@ -66,6 +66,10 @@ const Discord = require('discord.js');
      {
      message.channel.sendMessage("Hi.");
     }
+    if (message.content.match(/fat tony be released/i)||message.content.match(/fat tony come out/i)) 
+     {
+     message.channel.sendMessage("Soon.");
+    }
     if (message.content.match(/cappy/i))
      {
      message.channel.sendMessage("If you're one of those people that doesn't care to shop at GameStop, there's probably similar hats online somewhere.");
