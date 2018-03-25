@@ -68,7 +68,7 @@ const Discord = require('discord.js');
     }
     if (message.content.match(/fat tony be released/i)||message.content.match(/fat tony come out/i)) 
      {
-     message.channel.sendMessage("Soon.");
+     message.channel.sendMessage("Sometime.");
     }
     if (message.content.match(/cappy/i))
      {
