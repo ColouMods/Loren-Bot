@@ -66,7 +66,7 @@ const Discord = require('discord.js');
      {
      message.channel.sendMessage("Hi.");
     }
-    if (message.content.match(/fat tony be released/i)||message.content.match(/fat tony come out/i)) 
+    if (message.content.match(/fat tony be released/i)||message.content.match(/fat tony come out/i)||message.content.match(/fat tony will come out/i)||message.content.match(/fat tony will be released/i)) 
      {
      message.channel.sendMessage("Sometime.");
     }
