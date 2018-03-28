@@ -57,7 +57,8 @@ const Discord = require('discord.js');
          message.content.match(/despite your directions/i)
          )
      {
-         message.channel.sendMessage('/tts Can we cool it on the constant Steamed Hams references in this chat?');
+         message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
+         tts: true;
  	return;
      }
     //greeting code
