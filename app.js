@@ -6,7 +6,7 @@ const Discord = require('discord.js');
      console.log('I am ready!');
      //willChannel = client.channels.find('id', '422215368782643202');
  });
- 
+ //message.channel.sendMessage('content',{tts: true});
  client.on('message', message => {
      if (message.author.bot) return;
      
