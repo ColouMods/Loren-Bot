@@ -33,6 +33,13 @@ const Discord = require('discord.js');
      {
          message.channel.sendMessage("G2A is incredibly sketchy and I wouldn't put my money anywhere near that website.");
  	   return;
+     if (message.content.match(/80s cars mixed/i) ||
+         message.content.match(/80's cars mixed/i)||
+         (message.content.match(/ecto/i) && message.content.match(/delorean/i))
+         )
+     {
+         message.channel.sendMessage("G2A is incredibly sketchy and I wouldn't put my money anywhere near that website.");
+ 	   return;
      }
      if (message.content.match(/steamed hams/i) ||
          message.content.match(/aurora borealis/i) ||
