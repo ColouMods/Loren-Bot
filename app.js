@@ -39,7 +39,7 @@ const Discord = require('discord.js');
          (message.content.match(/ecto/i) && message.content.match(/delorean/i))
          )
      {
-         message.channel.sendMessage("G2A is incredibly sketchy and I wouldn't put my money anywhere near that website.");
+         message.channel.sendMessage("Ghostbusters/BTTF crossover when.");
  	   return;
      }
      if (message.content.match(/steamed hams/i) ||
