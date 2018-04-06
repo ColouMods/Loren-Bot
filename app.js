@@ -28,15 +28,17 @@ const Discord = require('discord.js');
          message.channel.sendMessage(':ok_hand::eyes::ok_hand::eyes::ok_hand::eyes::ok_hand::eyes::ok_hand::eyes: good shit go౦ԁ sHit:ok_hand: thats :heavy_check_mark: some good:ok_hand::ok_hand:shit right:ok_hand::ok_hand:there:ok_hand::ok_hand::ok_hand: right:heavy_check_mark:there :heavy_check_mark::heavy_check_mark:if i do ƽaү so my self :100: i say so :100: thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ:100: :ok_hand::ok_hand: :ok_hand:НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ:ok_hand: :ok_hand::ok_hand: :ok_hand: :100: :ok_hand: :eyes: :eyes: :eyes: :ok_hand::ok_hand:Good shit');
  	   return;
      }
-     if (message.content.match(/g2a/i)
-         )
+     if (message.content.match(/g2a/i))
      {
          message.channel.sendMessage("G2A is incredibly sketchy and I wouldn't put my money anywhere near that website.");
  	   return;
-     if (message.content.match(/slippery hill/i)
-         )
+     if (message.content.match(/slippery hill/i))
+     {
          message.channel.sendMessage("pls explain slippery hill joke");
+	 setTimeout(() => {
 	 message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
+	 message.channel.sendMessage("Not what I originally intended since I JUST WANT TO UNDERSTAND but I realized it could work for that.");
+	 }, 2000);
  	 return;
      }
      if (message.content.match(/80s cars mixed/i) ||
