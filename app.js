@@ -38,9 +38,9 @@ const Discord = require('discord.js');
      {
          message.channel.sendMessage("pls explain slippery hill joke");
          setTimeout(() => {
-				         message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
-			      }, 2000);
- 	   return;
+	 	message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
+	 }, 2000);
+ 	 return;
      }
      if (message.content.match(/80s cars mixed/i) ||
          message.content.match(/80's cars mixed/i) ||
