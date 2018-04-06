@@ -36,9 +36,7 @@ const Discord = require('discord.js');
      if (message.content.match(/slippery hill/i)
          )
          message.channel.sendMessage("pls explain slippery hill joke");
-         setTimeout(() => {
-	 	message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
-	 }, 2000);
+	 message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
  	 return;
      }
      if (message.content.match(/80s cars mixed/i) ||
@@ -51,7 +49,7 @@ const Discord = require('discord.js');
      }
      if (message.content.match(/steamed hams/i) ||
          message.content.match(/aurora borealis/i) ||
- 	       message.content.match(/northern lights/i) ||
+ 	 message.content.match(/northern lights/i) ||
          message.content.match(/oh egads/i) ||
          message.content.match(/delightfully devilish/i) ||
          message.content.match(/steamed clams/i) ||
@@ -71,14 +69,14 @@ const Discord = require('discord.js');
          message.content.match(/isometric exercise/i) ||
          message.content.match(/that isn't smoke it's steam/i) ||
          message.content.match(/upstate new york/i) ||
-        	message.content.match(/albany expression/i) ||
-        	message.content.match(/regional dialect/i) ||
+         message.content.match(/albany expression/i) ||
+         message.content.match(/regional dialect/i) ||
          message.content.match(/obviously grilled/i) ||
          message.content.match(/patented skinner burgers/i) ||
-        	message.content.match(/what is happening/i) ||
-        	message.content.match(/at this time of year/i) ||
-        	message.content.match(/at this time of day/i) ||
-        	message.content.match(/in this part of the country/i) ||
+         message.content.match(/what is happening/i) ||
+         message.content.match(/at this time of year/i) ||
+         message.content.match(/at this time of day/i) ||
+         message.content.match(/in this part of the country/i) ||
          message.content.match(/localized entirely within your kitchen/i) ||
          message.content.match(/steam a good ham/i) ||        
          message.content.match(/despite your directions/i)
