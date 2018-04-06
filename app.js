@@ -35,7 +35,6 @@ const Discord = require('discord.js');
  	   return;
      if (message.content.match(/slippery hill/i)
          )
-     {
          message.channel.sendMessage("pls explain slippery hill joke");
          setTimeout(() => {
 	 	message.channel.sendMessage("^ there's a good line for Loren Bot whenever anyone says that.");
