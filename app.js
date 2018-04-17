@@ -249,7 +249,9 @@ const Discord = require('discord.js');
 	 setTimeout(() => {
 	 message.channel.sendMessage("That's like 5 years worth of screenshots.");
 	 }, 2000);
+	 setTimeout(() => {
 	 message.channel.sendMessage("That's an average of 7.38 screenshots per day.");
+	 }, 2000);
  	}
  		else if (message.content.match(/How do I make Colou into a transparent wheel?/i))
  	{
