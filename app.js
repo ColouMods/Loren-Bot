@@ -3,6 +3,7 @@ const Discord = require('discord.js');
  
  //var willChannel;
  client.on('ready', () => {
+     message.author.sendMessage("Your message here.")
      console.log('I am ready!');
      //willChannel = client.channels.find('id', '422215368782643202');
  });
