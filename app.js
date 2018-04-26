@@ -23,8 +23,8 @@ client.on('message', message => {
      var second2 = second;
      });*/
     randNum = (Math.floor(Math.random() * 100)+1);
-	if (randNum == 1)
-    	{
+    if (randNum == 1)
+    {
         message.channel.sendMessage("My imagination stopped working during the war of 1812 where I was a fireman for the British regime who wanted to overthrow their own parliament in favour of a Nazi propaganda spewing lunatic who had eaten all of the ham sandwiches in the regimes breakroom during a different unrelated war a year prior.");
     }
     if (message.content.match(/siivagunner/i) ||
