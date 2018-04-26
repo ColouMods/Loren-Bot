@@ -8,8 +8,6 @@ client.on('ready', () => {
     //willChannel = client.channels.find('id', '422215368782643202');
 });
 //message.channel.sendMessage('content',{tts: true});
-
-
 client.on('message', message => {
     if (message.author.bot) return;
 
@@ -24,7 +22,6 @@ client.on('message', message => {
      var second = bored.getSeconds();
      var second2 = second;
      });*/
-    
     if (message.content.match(/siivagunner/i) ||
         message.content.match(/silvagunner/i) ||
         message.content.match(/please read the channel description/i)
