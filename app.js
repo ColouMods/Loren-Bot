@@ -21,6 +21,11 @@ client.on('message', message => {
      var second = bored.getSeconds();
      var second2 = second;
      });*/
+    if (message.content.match(/( ͡° ͜ʖ ͡°)/i)) {
+        message.channel.sendMessage('( ͡° ͜ʖ ͡°)');
+        message.channel.sendMessage('I have a dedicated button on my mouse for that face.');
+        return;
+    }
     if (message.content.match(/siivagunner/i) ||
         message.content.match(/silvagunner/i) ||
         message.content.match(/please read the channel description/i)
@@ -224,6 +229,8 @@ client.on('message', message => {
         message.channel.sendMessage("Yeah that sounds scary and I don't really know what the hell is going on there.");
     } else if (message.content.match(/what is your name?/i)) {
         message.channel.sendMessage("My name is Loren Bot#6687.");
+    } else if (message.content.match(/having a stroke/i)) {
+        message.channel.sendMessage("Who isn't?");
     } else if (message.content.match(/greasy dinosaur bastard/i)) {
         message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
     } else {
