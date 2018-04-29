@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 //horse
+//test
 //var willChannel;
 client.on('ready', () => {
     message.author.sendMessage("Your message here.")
