@@ -236,7 +236,6 @@ client.on('message', message => {
     } else {
         message.channel.sendMessage("Hm?");
     }
-    return;
 });
 
 client.on('message', message => {
