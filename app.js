@@ -21,6 +21,11 @@ client.on('message', message => {
      var second = bored.getSeconds();
      var second2 = second;
      });*/
+    if (message.content.match(/spider/i)) {
+        message.reply('pls actually never talk about spiders again lol');
+        message.channel.sendMessage('Spiders are fucking spoopy man');
+        return;
+    }
     if (message.content.match(/( ͡° ͜ʖ ͡°)/i)) {
         message.channel.sendMessage('( ͡° ͜ʖ ͡°)');
         message.channel.sendMessage('I have a dedicated button on my mouse for that face.');
