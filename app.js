@@ -22,8 +22,8 @@ client.on('message', message => {
      var second2 = second;
      });*/
     if (message.content.match(/spider/i)) {
-        message.reply('pls actually never talk about spiders again lol');
-        message.channel.sendMessage('Spiders are fucking spoopy man');
+        message.channel.sendMessage("<@" + message.author.id + ">:pls actually never talk about spiders again lol");
+        message.channel.sendMessage("Spiders are fucking spoopy man");
         return;
     }
     if (message.content.match(/( ͡° ͜ʖ ͡°)/i)) {
