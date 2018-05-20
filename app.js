@@ -57,6 +57,11 @@ client.on('message', message => {
         message.channel.sendMessage("Ghostbusters/BTTF crossover when.");
         return;
     }
+    if (message.content.match(/rms/i))
+    {
+        message.channel.sendMessage("RMS files are scary so we don't really know how to do anything beyond what I told you at the moment.");
+        return;
+    }
     if (message.content.match(/steamed hams/i) ||
         message.content.match(/aurora borealis/i) ||
         message.content.match(/northern lights/i) ||
