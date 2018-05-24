@@ -26,6 +26,10 @@ client.on('message', message => {
         message.channel.sendMessage("Spiders are fucking spoopy man");
         return;
     }
+    if (message.content.match(/the car fucks up there badly/i)) {
+        message.channel.sendMessage("nope");
+        return;
+    }
     if (message.content.match(/( ͡° ͜ʖ ͡°)/i)) {
         message.channel.sendMessage('( ͡° ͜ʖ ͡°)');
         message.channel.sendMessage('I have a dedicated button on my mouse for that face.');
