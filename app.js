@@ -261,5 +261,12 @@ randNum = (Math.floor(Math.random() * 100)+1);
     }
 });
 
+client.on('message', message => {
+randNum = (Math.floor(Math.random() * 100)+1);
+    if (randNum == 1)
+    {
+        message.channel.sendMessage("<@" + message.author.id + "> yo whaddup my brotato can you go ahead and try out that condition now fo shizzle");
+    }
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
