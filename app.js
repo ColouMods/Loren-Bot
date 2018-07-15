@@ -5,6 +5,13 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
     //willChannel = client.channels.find('id', '422215368782643202');
+    var update = new Date();
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var month = months[update.getMonth()];
+    var year = update.getFullYear();
+    client.channels.get('447499927220781068').sendMessage("Hey everyone, this is Loren Bot from Donut Team. Welcome to the " + month + " " + year + " Loren Bot Update.");
+    return;
+        
 });
 //message.channel.sendMessage('content',{tts: true});
 client.on('message', message => {
@@ -247,6 +254,8 @@ client.on('message', message => {
         message.channel.sendMessage("ok cool");
     } else if (message.content.match(/having a stroke/i)) {
         message.channel.sendMessage("Who isn't?");
+    } else if (message.content.match(/goodnight/i)) {
+        message.channel.sendMessage("Night night.");
     } else if (message.content.match(/greasy dinosaur bastard/i)) {
         message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
     } else {
