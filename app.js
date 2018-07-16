@@ -261,6 +261,13 @@ client.on('message', message => {
         } else {
             message.channel.sendMessage("Nighty night, sweet dreams.");
         }
+    } else if (message.content.match(/goodjgifgt/i)) {
+        nightNum = (Math.floor(Math.random() * 2) + 1);
+        if (nightNum == 1) {
+            message.channel.sendMessage("Nightyadgfg.");
+        } else {
+            message.channel.sendMessage("Nightyadhgfg.");
+        }
     } else if (message.content.match(/greasy dinosaur bastard/i)) {
         message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
     } else {
