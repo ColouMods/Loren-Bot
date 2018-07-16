@@ -255,7 +255,12 @@ client.on('message', message => {
     } else if (message.content.match(/having a stroke/i)) {
         message.channel.sendMessage("Who isn't?");
     } else if (message.content.match(/goodnight/i)) {
-        message.channel.sendMessage("Night night.");
+        nightNum = (Math.floor(Math.random() * 2) + 1);
+        if (nightNum == 1) {
+            message.channel.sendMessage("Night night.");
+        } else {
+            message.channel.sendMessage("Nighty night, sweet dreams.");
+        }
     } else if (message.content.match(/greasy dinosaur bastard/i)) {
         message.channel.sendMessage("I feel like it's less authentic if the bot of me says stuff you explicitly asked me to say.");
     } else {
