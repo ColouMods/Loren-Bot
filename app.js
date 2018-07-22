@@ -33,6 +33,10 @@ client.on('message', message => {
         message.channel.sendMessage("Spiders are fucking spoopy man");
         return;
     }
+    if (message.content.match(/loren you useless piece of shit/i)) {
+        message.channel.sendMessage("I was gone for 10 minutes and everything is on fire.");
+        return;
+    }
     if (message.content.match(/the car fucks up there badly/i)) {
         message.channel.sendMessage("nope");
         return;
