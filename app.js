@@ -256,7 +256,7 @@ client.on('message', message => {
         message.channel.sendMessage("My name is Loren Bot#6687.");
     } else if (message.content.match(/works now/i)) {
         message.channel.sendMessage("ok cool");
-    } else if (message.content.match(/yo whaddup my brotato can you go ahead and ask me to try out that condition now fo shizzle/i) {
+    } else if (message.content.match(/yo whaddup my brotato can you go ahead and ask me to try out that condition now fo shizzle/i)) {
            message.channel.sendMessage("<@" + message.author.id + "> yo whaddup my brotato can you go ahead and try out that condition now fo shizzle");
     } else if (message.content.match(/having a stroke/i)) {
         message.channel.sendMessage("Who isn't?");
