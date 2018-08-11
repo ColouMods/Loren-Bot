@@ -9,7 +9,11 @@ client.on('ready', () => {
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var month = months[update.getMonth()];
     var year = update.getFullYear();
-    client.channels.get('447499927220781068').sendMessage("Hey everyone, this is Loren Bot from Donut Team. Welcome to the " + month + " " + year + " Loren Bot Update.");
+    //client.channels.get('447499927220781068').sendMessage("Hey everyone, this is Loren Bot from Donut Team. Welcome to the " + month + " " + year + " Loren Bot Update.");
+    client.user.setStatus('dnd');
+	setTimeout(() => { 
+		client.user.setStatus('online');
+	}, 1000);
     return;
         
 });
