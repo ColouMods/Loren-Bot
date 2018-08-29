@@ -45,6 +45,10 @@ client.on('message', message => {
         message.channel.sendMessage("nope");
         return;
     }
+	if (message.content.match(/cocks.jpg/i)) {
+        message.channel.sendMessage("Love me some nice cock pictures.");
+        return;
+    }
     if (message.content.match(/( ͡° ͜ʖ ͡°)/i)) {
         message.channel.sendMessage('( ͡° ͜ʖ ͡°)');
         message.channel.sendMessage('I have a dedicated button on my mouse for that face.');
