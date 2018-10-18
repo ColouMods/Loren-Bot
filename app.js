@@ -152,6 +152,7 @@ client.on('message', message => {
 	"I'd like to formally welcome our new community managers Hall and Oates. We hope you all give them a warm welcome to our community management team.",
 	"I'd like to formally welcome our new community managers spaghetti and meatballs. We hope you all give them a warm welcome to our community management team.",
 	"I'd like to formally welcome our new community managers Benny and the Jets. We hope you all give them a warm welcome to our community management team.",
+	"I'd like to formally welcome our new community managers Huey Lewis and the News. We hope you all give them a warm welcome to our community management team.",
 	"Today I want to talk to you about Donut Mod. More specifically why it's taking so long.",
 	"Today I want to talk to you about Jake. More specifically why he's on fire.",
 	"Today I want to talk to you about somebody. More specifically how they told me the world was going to roll me.",
@@ -159,7 +160,7 @@ client.on('message', message => {
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	var month = months[update.getMonth()];
 	var year = update.getFullYear();
-	message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update. " + updateVariant[Math.floor(Math.random() * updateVariant.length) + 1]);
+	message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update. " + updateVariant[Math.floor(Math.random() * updateVariant.length)]);
 	return;
 	}
 	
