@@ -145,6 +145,22 @@ client.on('message', message => {
     }
 
     //This is basic content searching
+	if ((message.content.match(/status/i) || message.content.match(/update/i)) && message.content.match(/test/i)) {
+        var update = new Date();
+		var updateVariant = (Math.floor(Math.random() * updates.length) + 1);
+		var apos = "'";
+		var talk1 = ["Donut Mod", "Jake", "somebody", "Lucas"];
+		var talk2 = ["why it's taking so long", "why he's on fire", "how they told me the world was going to roll me", "the fact that he is currently holding me hostage"];
+		var manger1 = ["Simon", "Hall", "spaghetti", "Benny"];
+		var manger2 = ["Garfunkel", "Oates", "meatballs", "the Jets"];
+		var updates = ['"I" + apos + "d like to formally welcome our new community managers " + manger1[updateVariant] + "and" + manger2[updateVariant] + ". We hope you all give them a warm welcome to our community management team."', '"Today I want to talk to you about " + talk1[updateVariant] + ". More specifically " + talk2[updateVariant]+ "."'];
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var month = months[update.getMonth()];
+        var year = update.getFullYear();
+        message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update." + updates[updateVariant]);
+        return;
+    }
+	
     if (message.content.match(/status/i) || message.content.match(/update/i)) {
         var update = new Date();
         var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
