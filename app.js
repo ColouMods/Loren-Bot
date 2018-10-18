@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+//he's being mean and won't update, perhaps another commit will do the trick
 //var willChannel;
 client.on('ready', () => {
     console.log('I am ready!');
