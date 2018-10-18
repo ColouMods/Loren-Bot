@@ -157,7 +157,7 @@ client.on('message', message => {
 	"Today I want to talk to you about Jake. More specifically why he's on fire.",
 	"Today I want to talk to you about somebody. More specifically how they told me the world was going to roll me.",
 	"Today I want to talk to you about Lucas. More specifically the fact that he is currently holding me hostage."
-	]
+	];
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	var month = months[update.getMonth()];
 	var year = update.getFullYear();
