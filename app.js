@@ -159,7 +159,7 @@ client.on('message', message => {
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	var month = months[update.getMonth()];
 	var year = update.getFullYear();
-	message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update." + updateVariant[Math.floor(Math.random() * updateVariant.length) + 1]);
+	message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update." + updateVariant[Math.floor(Math.random() * updateVariant.length) + 1] + " ");
 	return;
 	}
 	
