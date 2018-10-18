@@ -157,6 +157,8 @@ client.on('message', message => {
 	"Today I want to talk to you about Jake. More specifically why he's on fire.",
 	"Today I want to talk to you about somebody. More specifically how they told me the world was going to roll me.",
 	"Today I want to talk to you about Road Rage Returns. More specifically that we'll now be developing it full-time and cancelling Donut Mod.",
+	"Today I want to talk to you about spiders. More specifically that they're fucking spoopy.",
+	"Today I want to talk to you about me. More specifically that I'm Loren from Donut Team.",
 	"Today I want to talk to you about Lucas. More specifically the fact that he is currently holding me hostage."];
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	var month = months[update.getMonth()];
