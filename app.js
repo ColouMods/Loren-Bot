@@ -66,6 +66,10 @@ client.on('message', message => {
         message.channel.sendMessage("G2A is incredibly sketchy and I wouldn't put my money anywhere near that website.");
         return;
     }
+	if (message.content.match(/house tour when/i)) {
+        message.channel.sendMessage("Yo whaddup this is Loren and welcome to my house tour video 2k18. Before we begin please  D E S T R O Y that subscribe button and A S S A U L T that like button.");
+        return;
+    }
     if (message.content.match(/slippery hill/i)) {
         message.channel.sendMessage("pls explain slippery hill joke");
         setTimeout(() => {
