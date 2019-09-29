@@ -33,6 +33,10 @@ client.on('message', message => {
      var second = bored.getSeconds();
      var second2 = second;
      });*/
+    if (message.content.match(/wheatosexual/i)) {
+        message.channel.sendMessage('Wtf I stroll into this chat and see "Wheatosexual".');
+        return;
+    }
     if (message.content.match(/spider/i)) {
         message.channel.sendMessage("<@" + message.author.id + "> pls actually never talk about spiders again lol");
         message.channel.sendMessage("Spiders are fucking spoopy man");
