@@ -339,6 +339,7 @@ randNum = (Math.floor(Math.random() * 100)+1);
 client.on('message', message => {
 randNum = (Math.floor(Math.random() * 200)+1);
     if (randNum == 1 || message.content.match(/pocket/i))
+	        if (message.author.bot) return;
     {
         message.channel.sendMessage("Lxl @, *zazzAzzzZtZzz,aa  DoctorBison#681mn!nmmkmmokmmmmmpm9\n.I'm?\n Kmllmmk mmmkmlkkmmmmkomnmkn mmnmnnnnnnnnnnnnnnnnnnnnnnnmbikmbbbbk nnbbnnnnnmmmkkmjmmmkmkmkmmlkmkmmmmmmkmmmmkmmmmmmmmmmkmmmmmmkkmmmmmmmmmmkmmmm.kmmkmmkllkllkmlllllllllllkl\nKkmmkbinn.nn6bkbnnnbnjnnm\nBnnn bnbnkmmbn n nnmnnnbbbbbbbhijnbbnj nbnbhhjjj8hiyvbujiimnjji8k(nmim88jjjijibvijuuuuiiiiuubbjkk8onbnbnnbnubbnnnnnnnnjnmvvbbbbnovbjnnknnkbnnkk in nnonnkb.jnnnnn nnmnnmnmnmnknnkmnkbbjk8nmbnnmjnnnnnkkbnnnjijnbkknmikknkbnnnbnnbkjnnnmmjj6bnkbnbkkbjbknjnjjnmkbjbbnjbnknnnnmnnmnmknn  bnmmkbnkbnnbnnnmnnnnmjnnbjnnnnnnbnbvbbbjjjnnnnkkbbnnbbkjnbkknonkjbuuvijbbnjkvhubjjibjjvvvbbbbbbbbjbnbnkkbbnbbjnnnnijjbi.nbjnmnjjbbbnnkmjjjn\nNn8jb\nNjknnjbbj\nMkmkiiiijmhvkjjj .\nMmmmmmmm\nI typed all that in my pocket by mistake.");
     }
