@@ -42,6 +42,10 @@ client.on('message', message => {
         message.channel.sendMessage("Spiders are fucking spoopy man");
         return;
     }
+    if (message.content.match(/make billboard/i) && message.content.match(/how do/i)) {
+        message.channel.sendMessage('<@333710766706524167> yo dinosaur man, you wanna learn how to slap some billboards up in that bitch?.');
+        return;
+    }
     if (message.content.match(/loren you useless piece of shit/i)) {
         message.channel.sendMessage("I was gone for 10 minutes and everything is on fire.");
         return;
