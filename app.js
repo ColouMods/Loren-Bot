@@ -44,7 +44,8 @@ client.on('message', message => {
     }
     if (message.content.match(/make billboard/i) && message.content.match(/how do/i)) {
         message.channel.sendMessage('<@333710766706524167> yo dinosaur man, you wanna learn how to slap some billboards up in that bitch?');
-        return;
+        message.channel.sendMessage('Er I mean: Hello, Colou. Would you like to learn how to add billboards now?');
+	return;
     }
     if (message.content.match(/loren you useless piece of shit/i)) {
         message.channel.sendMessage("I was gone for 10 minutes and everything is on fire.");
