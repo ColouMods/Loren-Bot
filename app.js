@@ -21,7 +21,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     //if ((message.channel.id == 695403372328517684)
-    if ((message.channel.id == 695403303814824049)
+    if ((message.channel.id == 695403303814824049))
     {
         var shitToSend = message.content;
         client.channels.get('695402060283248691').sendMessage(shitToSend);
